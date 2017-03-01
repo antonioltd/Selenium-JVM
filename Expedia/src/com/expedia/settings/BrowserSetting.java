@@ -9,11 +9,11 @@ public class BrowserSetting {
 		WebDriver driver = null;
 		switch (browser) {
 		case Chrome:
-			System.setProperty("webdriver.chrome.driver", "C:\\Selenium JVM\\Expedia\\JARS\\chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\tanto\\Desktop\\GitHub\\JARS\\geckodriver.exee");
 			driver = new ChromeDriver();
 			break;
 		case Firefox:
-			System.setProperty("webdriver.chrome.driver", "C:\\Selenium JVM\\Expedia\\JARS\\geckodriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\tanto\\Desktop\\GitHub\\JARS\\chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 

@@ -1,14 +1,11 @@
 
-Feature: Title of your feature
-	I want to use this template for my feature file
+Feature: Flight Booking
 @tagsfirst
-Scenario: Title of your scenario
-Given I want to write a step with precondition
-	And some other precondition
-When I complete action
-	And some other action
-	And yet another action
-Then I validate the outcomes
-	And check more outcomes
+Scenario: Book a one-way fligt
+	Given User is at the Flight tab page
+	And Clicks on One way button
+	Then Enter 'Paris' as origin and 'London' as destination
+	And Select  10/03/2017 as departure date and 20/03/2017 as return date
+	
 	
 	
